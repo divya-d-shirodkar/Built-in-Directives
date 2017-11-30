@@ -1,3 +1,8 @@
-<p>
-  ng-if works!
-</p>
+<h3>Ng If Block</h3>
+<ul *ngFor="let person of people">
+  <li *ngIf="person.age > 30">
+    <p>{{person.name}}</p>
+    <p>{{person.dob}}</p>
+  </li>
+</ul>
+

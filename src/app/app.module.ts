@@ -8,6 +8,8 @@ import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 
+import { BootstrapModule } from "./bootstrap/bootstrap.module";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,4 +25,6 @@ import { NgClassComponent } from './ng-class/ng-class.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
