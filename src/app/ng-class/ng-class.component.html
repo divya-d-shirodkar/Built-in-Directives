@@ -1,3 +1,18 @@
+<h3>
+  ng-class works 1
+</h3>
+<ul>
+  <li *ngFor="let person of people" [ngClass]="person.age > 30 ? 'text-primary' : 'text-success'">
+    <p>{{person.name}}</p>
+    <p>{{person.dob}}</p>
+  </li>
+</ul>
 <p>
-  ng-class works!
+  ng-class works 2
 </p>
+<ul>
+  <li *ngFor="let person of people" class="class1 class2" [class.text-danger]="person.age < 30">
+    <p>{{person.name}}</p>
+    <p>{{person.dob}}</p>
+  </li>
+</ul>

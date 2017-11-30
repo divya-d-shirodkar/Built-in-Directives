@@ -9,6 +9,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 
 import { BootstrapModule } from "./bootstrap/bootstrap.module";
+import { NgNonBindableComponent } from './ng-non-bindable/ng-non-bindable.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BootstrapModule } from "./bootstrap/bootstrap.module";
     NgIfComponent,
     NgSwitchComponent,
     NgStyleComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgNonBindableComponent
   ],
   imports: [
     BrowserModule

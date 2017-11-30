@@ -9,6 +9,27 @@
   *ngSwitch
 </button>
 
-<ng-for *ngIf="showNgFor"></ng-for>
-<ng-if *ngIf="showNgIf"></ng-if>
-<ng-switch *ngIf="showNgSwitch"></ng-switch>
+<div class="row">
+  <div *ngIf="showNgFor" class="col-md-4">
+    <ng-for ></ng-for>
+  </div>
+  <div *ngIf="showNgIf" class="col-md-4">
+    <ng-if></ng-if>
+  </div>
+  <div *ngIf="showNgSwitch" class="col-md-4">
+    <ng-switch></ng-switch>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <ng-style></ng-style>
+  </div>
+  <div class="col-md-4">
+    <ng-class></ng-class>
+  </div>
+  <div class="col-md-4">
+    <ng-non-bindable></ng-non-bindable>
+  </div>
+</div>
